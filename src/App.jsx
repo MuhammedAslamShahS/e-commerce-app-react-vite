@@ -1,14 +1,10 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import RoutesLayout from "./LayoutRoutes/RoutesLayout";
 
 const App = () => {
     return (
-        <div>
-            <Header />
-            <Home />
-            <Footer />
-        </div>
+        <>
+            <RoutesLayout />
+        </>
     );
 };
 
