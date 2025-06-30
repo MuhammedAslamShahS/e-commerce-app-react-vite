@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.logout-button {
+    background-color: rgb(213, 72, 72);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
