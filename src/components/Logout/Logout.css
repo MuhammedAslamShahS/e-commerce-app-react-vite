@@ -1,0 +1,21 @@
+.logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logout-container {
+    text-align: center;
+
+}
+
+.logout-container h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.logout-container p{
+    font-size: 16px;
+    color: gray;
+}

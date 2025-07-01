@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { getAllProducts } from "../ApiService/Api";
 import "./Home.css";
 
@@ -25,8 +26,9 @@ const Home = () => {
                     <p>
                         <span className="price">{product.price}</span>
                     </p>
-
-                    <button>Product Detais</button>
+                    <Link to={`product/${product.id}`}>
+                        <button>Product Detais</button>
+                    </Link>
                 </div>
             ))}
         </div>
